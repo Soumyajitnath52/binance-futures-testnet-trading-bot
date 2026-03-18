@@ -1,0 +1,12 @@
+2026-03-18 13:37:55,929 | INFO | cli | CLI started. Log file: logs\trading_bot.log
+2026-03-18 13:37:55,931 | INFO | BinanceFuturesClient | Sending request | method=POST | path=/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'newOrderRespType': 'RESULT', 'timestamp': 1773821275931, 'recvWindow': 5000, 'signature': '***'}
+2026-03-18 13:37:56,953 | INFO | BinanceFuturesClient | Received response | status=401 | body={'code': -2014, 'msg': 'API-key format invalid.'}
+2026-03-18 13:37:56,953 | ERROR | cli | Binance API error: Binance API error -2014: API-key format invalid.
+2026-03-18 13:49:31,047 | INFO | cli | CLI started. Log file: logs\trading_bot.log
+2026-03-18 13:49:31,048 | ERROR | cli | Configuration error: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET environment variables.
+2026-03-18 13:49:35,160 | INFO | cli | CLI started. Log file: logs\trading_bot.log
+2026-03-18 13:49:35,160 | ERROR | cli | Configuration error: Missing Binance credentials. Set BINANCE_API_KEY and BINANCE_API_SECRET environment variables.
+2026-03-18 13:49:57,314 | INFO | cli | CLI started. Log file: logs\trading_bot.log
+2026-03-18 13:49:57,315 | INFO | BinanceFuturesClient | Sending request | method=POST | path=/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'newOrderRespType': 'RESULT', 'timestamp': 1773821997314, 'recvWindow': 5000, 'signature': '***'}
+2026-03-18 13:49:57,881 | INFO | BinanceFuturesClient | Received response | status=400 | body={'code': -4164, 'msg': "Order's notional must be no smaller than 100 (unless you choose reduce only)."}
+2026-03-18 13:49:57,881 | ERROR | cli | Binance API error: Binance API error -4164: Order's notional must be no smaller than 100 (unless you choose reduce only).
